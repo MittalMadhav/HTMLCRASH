@@ -13,6 +13,8 @@
 		<h5>This is heading 5</h5>
 		<h6>This is heading 6</h6>
 
+	<hr>
+
 	<!-- This is the paragraph section -->
 		<!-- This is the normal text -->
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -26,9 +28,103 @@
 		<!-- This is the normal text again -->
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-	<!-- This is the list section -->
-	
-	</body>
+	<hr>
 
-	<
+	<!-- This is the list section -->
+	<ul>
+		<li>First bullet point</li>
+		<li>Second bullet point</li>
+		<li>Third bullet point</li>
+	</ul>
+
+	<ol>
+		<li>First bullet point</li>
+		<li>Second bullet point</li>
+		<li>Third bullet point</li>
+	</ol>
+
+	<br>
+	<hr>
+	<br>
+
+	<!-- This is the tables section -->
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Age</th>
+				<th>Email</th>
+			</tr>			
+		</thead>
+
+		<tbody>
+			<tr>
+				<td>Madhav</td>
+				<td>20</td>
+				<td>khgefwy</td>
+			</tr>
+			<tr>
+				<td>Rachit</td>
+				<td>15</td>
+				<td>qhqofn</td>
+			</tr>
+			<tr>
+				<td>Manish</td>
+				<td>45</td>
+				<td>jqsinm </td>
+			</tr>
+		</tbody>
+	</table>
+
+	<br>
+	<hr>
+	<br>
+
+	<!-- This is the Forms section -->
+	<form action = "process.php" method = "POST">
+		<div>
+			<label>First Name</label>
+			<input type="text" name="firstName" placeholder="John">
+		</div>
+
+		<div>
+			<label>Last Name</label>
+			<input type="text" name="lastName" placeholder="Appleseed">
+		</div>	
+
+		<div>
+			<label>Email ID</label>
+			<input type="email" name="email" placeholder="JohnA@gmail.com">
+		</div>	
+
+		<div>
+			<label>Sample Message</label>
+			<textarea name = "message" placeholder="blablablamessage"></textarea>
+		</div>		
+
+		<div>
+			<label>Gender</label>
+			<select name = "gender">
+				<option value = "male">Male</option>
+				<option value = "female">Female</option>
+				<option value = "other">Other</option>
+			</select>
+		</div>		
+
+		<div>
+			<label>Age</label>
+			<input type="number" name="age" placeholder="44">
+		</div>	
+
+		<div>
+			<label>Birthday</label>
+			<input type="date" name="birthday">
+		</div>	
+
+		<div>
+			<input type="submit" name="submit" value = "Submit">
+		</div>		
+	</form>
+
+	</body>
 </html>
