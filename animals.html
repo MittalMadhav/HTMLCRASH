@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Animals</title>
+	</head>
+
+	<body>
+
+		<!--This is the headers section-->
+		<header id = "main-header">
+			<h2>WELCOME TO MY BLOG ABOUT ANIMALS!</h2>
+		</header>
+
+		<header id = "sub-header">
+			<p>This blog is going to explain the anatomy of certain animals</p>
+		</header>
+
+		<header id = "end-header">
+			<small>Written by <strong>Madhav Mittal</strong> on 11th May, 2020</small>
+		</header>
+
+		<br>
+
+		<aside>
+			<h3>If you want to check out other HTML links by Madhav, check out the following links</h3>
+			<nav>
+				<ul>
+					<li><a href="index.html">index page</a></li>
+					<li><a href="blog.html">other blog page</a></li>
+				</ul>
+			</nav>
+		</aside>
+
+		<br>
+
+
+		<section>
+			<ol>
+
+				<li>
+					<article>
+						<h3>MONKEYS</h3>
+						<a href="images/monkeys.jpg">
+							<img src="images/monkeys.jpg" width=200>
+						</a>
+						<p>Monkeys live all over the world and come in various shapes, sizes and colors. As one of our closest relatives, these mammals are very intelligent and have opposable thumbs, allowing them to use tools and play games.</p>
+					</article>
+				</li>	
+
+				<li>
+					<article>
+						<h3>GIANT PANDAS</h3>
+						<a href="images/pandas.jpg">
+							<img src="images/pandas.jpg" width=200>
+						</a>
+						<p>Giant pandas are bears that are native to China, where they are considered a national treasure. Despite their exalted status, giant panda (Ailuropoda melanoleuca) populations are vulnerable: fewer than 1,900 live in the wild, according to the Smithsonian National Zoo. About 300 live in zoos around the world.</p>
+					</article>
+				</li>	
+
+				<li>
+					<article>
+						<h3>BLUE WHALES</h3>
+						<a href="images/whales.jpg">
+							<img src="images/whales.jpg" width=200>
+						</a>
+						<p>The blue whale (Balaenoptera musculus) is the largest animal known to have existed in history. These enormous marine mammals have been known to reach up to 110 feet (34 meters) long, and the largest individuals likely weigh at least 150 tons (136 metric tons), according to the National Oceanic and Atmospheric Administration (NOAA) Fisheries. That's a little more than twice the length of a school bus and more than three times the weight of a semitrailer truck.</p>
+					</article>
+				</li>	
+
+			</ol>
+		</section>
+
+		<br><br><br>
+
+		<p>Thanks for reading! I would now like your feedback, kindly fill the following form :)</p>
+		<form action = "process.php" method="POST">
+
+			<div>
+				<label>First Name</label>
+				<input type = "text" name = "firstName">
+			</div>
+
+			<div>
+				<label>Second Name</label>
+				<input type = "text" name = "secondName">
+			</div>
+
+			<div>
+				<label>DOB</label>
+				<input type="date" name = "dob">
+			</div>
+
+			<div>
+				<label>Email</label>
+				<input type = "email" name = "email">
+			</div>
+
+			<div>
+				<label>How much did you like this page?</label>
+				<select name = "RATING">
+					<option value = "Good">Good</option>
+					<option value = "Ok">Ok</option>
+					<option value = "Bad">Bad</option>				
+				</select>
+			</div>
+
+			<div>
+				<br><br>
+				<input type="submit" name="submit" value="Submit">
+			</div>
+
+		</form>
+
+		<footer>
+			<p>That's all, folks!</p>
+		</footer>
+
+
+	</body>
+
+</html>
